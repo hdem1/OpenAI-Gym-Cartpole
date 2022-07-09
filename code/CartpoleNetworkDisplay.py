@@ -7,7 +7,7 @@ from pynput import keyboard
 from threading import Thread
 
 env = gym.make('CartPole-v1')
-filepath = "/Users/henrydemarest/Documents/Random Coding Experiments/MachineLearningExperiments/Classic Control/Cartpole/Saved Networks/CP_gens-10_children-10_layers-1_layerHeight-4_networkTests-10_wMax-5_bMax-0.txt"
+filepath = "/Users/henrydemarest/Documents/Random Coding Projects/MachineLearningExperiments/OpenAI-Gym-Cartpole/Saved Networks/CP_gens-10_children-10_layers-1_layerHeight-4_networkTests-10_wMax-5_bMax-0.txt"
 
 #open file:
 file = open(filepath, "r")

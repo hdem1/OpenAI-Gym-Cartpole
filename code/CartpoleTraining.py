@@ -165,7 +165,7 @@ for iteration in range(final_display_iterations):
 if saving:
     #Creating file:
     print()
-    folder = "/Users/henrydemarest/Documents/Random Coding Experiments/MachineLearningExperiments/Classic Control/Cartpole/Saved Networks/"
+    folder = "/Users/henrydemarest/Documents/Random Coding Projects/MachineLearningExperiments/OpenAI-Gym-Cartpole/Saved Networks/"
     filename = "CP"
     filename = filename + "_gens-" + str(num_generations)
     filename = filename + "_children-"+str(num_children) 
