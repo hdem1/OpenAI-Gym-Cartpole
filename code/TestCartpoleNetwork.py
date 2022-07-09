@@ -2,10 +2,10 @@ import gym
 import matplotlib.pyplot as plt
 import numpy as np
 import random as rand
-from os.path import exists
+from os.path import exists, expanduser
 
 env = gym.make('CartPole-v1')
-filepath = "/Users/henrydemarest/Documents/Random Coding Projects/MachineLearningExperiments/OpenAI-Gym-Cartpole/Saved Networks/CP_gens-10_children-10_layers-1_layerHeight-4_networkTests-10_wMax-5_bMax-0.txt"
+filepath = expanduser("~/Documents/Random Coding Projects/MachineLearningExperiments/OpenAI-Gym-Cartpole/Saved Networks/CP_gens-10_children-10_layers-1_layerHeight-4_networkTests-10_wMax-5_bMax-0.txt")
 
 #open file:
 file = open(filepath, "r")
